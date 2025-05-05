@@ -1,0 +1,33 @@
+Task,Tags,Priority,Week
+Design user auth pages (login/register/profile),"UI/UX, Frontend, Figma",High,Week 1
+Design “Create Project” PRD form,"UI/UX, Frontend, Figma",High,Week 1
+Design landing page and project listing,"UI/UX, Frontend, Figma",High,Week 1
+"Design 4-tab collab layout (Task, Figma, Chat, Code)","UI/UX, Frontend, Figma",High,Week 1
+Build static pages in React + Tailwind,Frontend,High,Week 1
+Setup routing with nested layouts,Frontend,Medium,Week 1
+Make mobile responsive prototype in Figma,"Figma, UI/UX",Medium,Week 1
+"Create design system (fonts, spacing, button states)",Figma,Medium,Week 1
+Set up Django + PostgreSQL project,Backend,High,Week 2
+Create custom user model,Backend,High,Week 2
+"Define models (Project, JoinRequest, Chat, FigmaLink, GitHubRepo, Task)",Backend,High,Week 2
+Set up serializers for all models,"Backend, API",High,Week 2
+Write test data for initial seed,Backend,Medium,Week 2
+Setup Django REST framework,Backend,Medium,Week 2
+Test CRUD APIs locally,"Backend, API",Medium,Week 2
+Implement authentication (JWT/session),"Auth, Backend",High,Week 3
+"User onboarding flow (experience, tech stack)",Backend,High,Week 3
+Enable Project PRD creation and listing,"Backend, API",High,Week 3
+Develop Join Project request/approval system,"Backend, API",High,Week 3
+"Add Task management system (assign, update, complete)",Backend,High,Week 3
+Implement basic group chat,"Chat, Backend",Medium,Week 3
+Integrate Figma view/embed,API,Medium,Week 3
+Stub GitHub API endpoints,API,Medium,Week 3
+Write unit tests for major logic,"Backend, Testing",Medium,Week 3
+Connect React frontend to Django backend (Axios/React Query),Full Stack,High,Week 4
+"Handle API states (loading, error, success)",Frontend,Medium,Week 4
+Implement permissions and roles,Backend,High,Week 4
+Deploy backend (AWS EC2 or Render),DevOps,High,Week 4
+Deploy frontend (Vercel / S3 / Netlify),DevOps,High,Week 4
+Polish UI with spacing/icons responsiveness,UI/UX,Medium,Week 4
+End-to-end manual testing (create → join → collab),Testing,High,Week 4
+Prepare demo video and documentation,Docs,Medium,Week 4
