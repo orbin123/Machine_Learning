@@ -1,0 +1,101 @@
+Day,Question Name,Link
+1,Climbing Stairs,https://leetcode.com/problems/climbing-stairs/
+2,Fibonacci Number,https://leetcode.com/problems/fibonacci-number/
+3,N-th Tribonacci Number,https://leetcode.com/problems/n-th-tribonacci-number/
+4,Min Cost Climbing Stairs,https://leetcode.com/problems/min-cost-climbing-stairs/
+5,House Robber,https://leetcode.com/problems/house-robber/
+6,House Robber II,https://leetcode.com/problems/house-robber-ii/
+7,Maximum Subarray,https://leetcode.com/problems/maximum-subarray/
+8,Best Time to Buy and Sell Stock,https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+9,Is Subsequence,https://leetcode.com/problems/is-subsequence/
+10,Counting Bits,https://leetcode.com/problems/counting-bits/
+11,Range Sum Query - Immutable,https://leetcode.com/problems/range-sum-query-immutable/
+12,Divisor Game,https://leetcode.com/problems/divisor-game/
+13,Pascal's Triangle,https://leetcode.com/problems/pascals-triangle/
+14,Pascal's Triangle II,https://leetcode.com/problems/pascals-triangle-ii/
+15,Get Maximum in Generated Array,https://leetcode.com/problems/get-maximum-in-generated-array/
+16,Delete and Earn,https://leetcode.com/problems/delete-and-earn/
+17,Domino and Tromino Tiling,https://leetcode.com/problems/domino-and-tromino-tiling/
+18,Unique Paths,https://leetcode.com/problems/unique-paths/
+19,Unique Paths II,https://leetcode.com/problems/unique-paths-ii/
+20,Minimum Path Sum,https://leetcode.com/problems/minimum-path-sum/
+21,Triangle,https://leetcode.com/problems/triangle/
+22,Maximum Product Subarray,https://leetcode.com/problems/maximum-product-subarray/
+23,Coin Change,https://leetcode.com/problems/coin-change/
+24,Coin Change 2,https://leetcode.com/problems/coin-change-2/
+25,Longest Increasing Subsequence,https://leetcode.com/problems/longest-increasing-subsequence/
+26,Perfect Squares,https://leetcode.com/problems/perfect-squares/
+27,Decode Ways,https://leetcode.com/problems/decode-ways/
+28,Word Break,https://leetcode.com/problems/word-break/
+29,Partition Equal Subset Sum,https://leetcode.com/problems/partition-equal-subset-sum/
+30,Target Sum,https://leetcode.com/problems/target-sum/
+31,Combination Sum IV,https://leetcode.com/problems/combination-sum-iv/
+32,Number of Longest Increasing Subsequence,https://leetcode.com/problems/number-of-longest-increasing-subsequence/
+33,Longest Palindromic Substring,https://leetcode.com/problems/longest-palindromic-substring/
+34,Palindromic Substrings,https://leetcode.com/problems/palindromic-substrings/
+35,Longest Palindromic Subsequence,https://leetcode.com/problems/longest-palindromic-subsequence/
+36,Ones and Zeroes,https://leetcode.com/problems/ones-and-zeroes/
+37,Knight Dialer,https://leetcode.com/problems/knight-dialer/
+38,Minimum Falling Path Sum,https://leetcode.com/problems/minimum-falling-path-sum/
+39,Maximal Square,https://leetcode.com/problems/maximal-square/
+40,Wiggle Subsequence,https://leetcode.com/problems/wiggle-subsequence/
+41,Arithmetic Slices,https://leetcode.com/problems/arithmetic-slices/
+42,Counting Bits,https://leetcode.com/problems/counting-bits/
+43,Predict the Winner,https://leetcode.com/problems/predict-the-winner/
+44,Shopping Offers,https://leetcode.com/problems/shopping-offers/
+45,2 Keys Keyboard,https://leetcode.com/problems/2-keys-keyboard/
+46,Integer Break,https://leetcode.com/problems/integer-break/
+47,Unique Substrings in Wraparound String,https://leetcode.com/problems/unique-substrings-in-wraparound-string/
+48,Longest Common Subsequence,https://leetcode.com/problems/longest-common-subsequence/
+49,Edit Distance,https://leetcode.com/problems/edit-distance/
+50,Distinct Subsequences,https://leetcode.com/problems/distinct-subsequences/
+51,Interleaving String,https://leetcode.com/problems/interleaving-string/
+52,Best Time to Buy and Sell Stock with Cooldown,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+53,Best Time to Buy and Sell Stock with Transaction Fee,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
+54,Paint House,https://leetcode.com/problems/paint-house/
+55,Paint House II,https://leetcode.com/problems/paint-house-ii/
+56,Ugly Number II,https://leetcode.com/problems/ugly-number-ii/
+57,Super Ugly Number,https://leetcode.com/problems/super-ugly-number/
+58,Maximum Length of Pair Chain,https://leetcode.com/problems/maximum-length-of-pair-chain/
+59,Longest Arithmetic Subsequence,https://leetcode.com/problems/longest-arithmetic-subsequence/
+60,Minimum Cost For Tickets,https://leetcode.com/problems/minimum-cost-for-tickets/
+61,Last Stone Weight II,https://leetcode.com/problems/last-stone-weight-ii/
+62,Russian Doll Envelopes,https://leetcode.com/problems/russian-doll-envelopes/
+63,Dungeon Game,https://leetcode.com/problems/dungeon-game/
+64,Best Time to Buy and Sell Stock III,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
+65,Best Time to Buy and Sell Stock IV,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/
+66,Burst Balloons,https://leetcode.com/problems/burst-balloons/
+67,Regular Expression Matching,https://leetcode.com/problems/regular-expression-matching/
+68,Wildcard Matching,https://leetcode.com/problems/wildcard-matching/
+69,Student Attendance Record II,https://leetcode.com/problems/student-attendance-record-ii/
+70,Maximal Rectangle,https://leetcode.com/problems/maximal-rectangle/
+71,Minimum Swaps To Make Sequences Increasing,https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
+72,Largest Divisible Subset,https://leetcode.com/problems/largest-divisible-subset/
+73,Stone Game,https://leetcode.com/problems/stone-game/
+74,Stone Game II,https://leetcode.com/problems/stone-game-ii/
+75,Stone Game III,https://leetcode.com/problems/stone-game-iii/
+76,New 21 Game,https://leetcode.com/problems/new-21-game/
+77,Number of Dice Rolls With Target Sum,https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
+78,Number of Ways to Stay in the Same Place After Some Steps,https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/
+79,Minimum Difficulty of a Job Schedule,https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
+80,Palindrome Partitioning,https://leetcode.com/problems/palindrome-partitioning/
+81,Palindrome Partitioning II,https://leetcode.com/problems/palindrome-partitioning-ii/
+82,Word Break II,https://leetcode.com/problems/word-break-ii/
+83,Minimum Cost to Cut a Stick,https://leetcode.com/problems/minimum-cost-to-cut-a-stick/
+84,Minimum Cost to Merge Stones,https://leetcode.com/problems/minimum-cost-to-merge-stones/
+85,Paint Fence,https://leetcode.com/problems/paint-fence/
+86,Longest Increasing Path in a Matrix,https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
+87,Count Vowels Permutation,https://leetcode.com/problems/count-vowels-permutation/
+88,Cherry Pickup,https://leetcode.com/problems/cherry-pickup/
+89,Cherry Pickup II,https://leetcode.com/problems/cherry-pickup-ii/
+90,Frog Jump,https://leetcode.com/problems/frog-jump/
+91,Strange Printer,https://leetcode.com/problems/strange-printer/
+92,Number of Ways to Form a Target String Given a Dictionary,https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/
+93,Number of Ways to Wear Different Hats to Each Other,https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/
+94,Max Value of Equation,https://leetcode.com/problems/max-value-of-equation/
+95,Freedom Trail,https://leetcode.com/problems/freedom-trail/
+96,Arithmetic Slices II - Subsequence,https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
+97,Trapping Rain Water,https://leetcode.com/problems/trapping-rain-water/
+98,Remove Boxes,https://leetcode.com/problems/remove-boxes/
+99,Number of Music Playlists,https://leetcode.com/problems/number-of-music-playlists/
+100,Find the Shortest Superstring,https://leetcode.com/problems/find-the-shortest-superstring/
