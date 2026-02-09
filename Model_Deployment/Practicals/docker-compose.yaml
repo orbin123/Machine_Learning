@@ -1,0 +1,29 @@
+services:
+  #Service 1: Flask
+  flask-api:
+    build:
+      context: .
+      dockerfile: Dockerfile.flask
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./model.joblib:/app/model.joblib 
+    networks:
+      - ml-network
+
+  # Service 2: Django 
+  django-api:
+    build:
+      context: .
+      dockerfile: Dockerfile.django 
+    ports:
+      - '8001:8001'
+    volumes:
+      - ./model.joblib:/app/model.joblib
+    networks:
+      - ml-network
+
+networks:
+  ml-network:
+    driver: bridge 
+    

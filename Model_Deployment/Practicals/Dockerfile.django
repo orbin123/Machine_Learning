@@ -1,0 +1,14 @@
+FROM python:3.11-slim 
+
+WORKDIR /app 
+
+COPY requirements-django.txt .
+
+RUN pip install --no-cache-dir -r requirements-django.txt 
+
+COPY django_ml_api/ .
+COPY model.joblib .
+
+EXPOSE 8001 
+
+CMD ["gunicorn", "django_ml_api.wsgi:application", "--bind", "0.0.0.0:8001", "--workers", "2"]
