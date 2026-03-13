@@ -1,0 +1,38 @@
+paragraph.
+1. Corporate/Business Jargon
+Let's circle back: Let's discuss this later.
+Bandwidth: Time or capacity to do a task.
+Deep dive: Investigate a topic in detail.
+Actionable items: Tasks that can actually be done.
+Synergy: Working together for a better result.
+Game changer: A new, disruptive idea. 
+Atlassian
+Atlassian
+ +4
+2. Technology/IT Jargon
+Core competency: The main strength of a company.
+Bandwidth: The capacity for data transfer.
+Cloud computing: Using internet-based servers.
+User Experience (UX): How a person feels when navigating a product.
+Backend/Frontend: The unseen server-side vs. the visible user interface. 
+SlickText
+SlickText
+ +4
+3. Legal/Medical Jargon
+Tort: A wrongful act or infringement of a right.
+Stat: Immediately (medical).
+Plaintiff: Person bringing a case to court.
+Contraindicated: A medical treatment that should not be used. 
+Write for Results
+Write for Results
+ +4
+4. A Sample "Jargon-Laced" Paragraph
+"We need to leverage our core competencies to drive synergy across the verticals. Before we circle back on the go-to-market strategy, I need a deep dive into the actionable items regarding the dumpster fire in the QA department. Let’s ensure we have the bandwidth to flesh out this game-changer idea by EOD." 
+SlickText
+SlickText
+ +3
+5. Texting/Internet Abbreviations
+ICYMI: In case you missed it.
+AFAIK: As far as I know.
+IMO: In my opinion.
+TL;DR: Too long; didn't read
