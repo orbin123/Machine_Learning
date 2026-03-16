@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.StringIndexerModel","timestamp":1773585351089,"sparkVersion":"4.1.1","uid":"StringIndexer_6bdae5d0eec9","paramMap":{"handleInvalid":"keep","inputCol":"PaymentMethod","outputCol":"PaymentMethod_idx"},"defaultParamMap":{"handleInvalid":"error","outputCol":"StringIndexerModel_0b21513e3687__output","stringOrderType":"frequencyDesc"}}
