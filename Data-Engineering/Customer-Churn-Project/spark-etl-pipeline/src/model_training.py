@@ -16,7 +16,7 @@ from pyspark.ml.tuning import ParamGridBuilder, CrossValidator
 from extract import create_spark_session
 
 
-# ─── Configuration ───
+# Configuration 
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 DATA_PATH = os.path.join(PROJECT_ROOT, "data", "processed", "telco_churn_clean")
 MODEL_SAVE_PATH = os.path.join(PROJECT_ROOT, "models", "churn_model")
@@ -232,18 +232,18 @@ def run_ml_pipeline():
 
     start_time = time.time()
 
-    # ── Step 1: Create Spark Session ──
+    # Step 1: Create Spark Session
     spark = create_spark_session("TelcoChurnML")
 
-    # ── Step 2: Load Processed Data ──
+    # Step 2: Load Processed Data 
     df = load_data(spark)
 
-    # ── Step 3: Train/Test Split ──
+    # Step 3: Train/Test Split
     train_df, test_df = df.randomSplit([0.8, 0.2], seed=SEED)
     print(f"\n[SPLIT] Training set: {train_df.count()} rows")
     print(f"[SPLIT] Test set:     {test_df.count()} rows")
 
-    # ── Step 4: Train Logistic Regression ──
+    # Step 4: Train Logistic Regression 
     print("\n--- Logistic Regression ---")
     lr_pipeline = build_lr_pipeline()
     lr_model = lr_pipeline.fit(train_df)
@@ -251,14 +251,14 @@ def run_ml_pipeline():
     lr_metrics = evaluate_model(lr_predictions, "Logistic Regression")
     show_predictions(lr_predictions)
 
-    # ── Step 5: Train Random Forest ──
+    # Step 5: Train Random Forest
     print("\n--- Random Forest ---")
     rf_pipeline = build_rf_pipeline()
     rf_model = rf_pipeline.fit(train_df)
     rf_predictions = rf_model.transform(test_df)
     rf_metrics = evaluate_model(rf_predictions, "Random Forest")
 
-    # ── Step 6: Compare Models ──
+    # Step 6: Compare Models
     print("\n" + "=" * 50)
     print("  MODEL COMPARISON")
     print("=" * 50)
@@ -268,7 +268,7 @@ def run_ml_pipeline():
         print(f"  {metric:<12} {lr_metrics[metric]:<12.4f} {rf_metrics[metric]:<12.4f}")
     print("=" * 50)
 
-    # ── Step 7: Select Best Model ──
+    # Step 7: Select Best Model
     if lr_metrics["auc"] >= rf_metrics["auc"]:
         best_model = lr_model
         best_name = "Logistic Regression"
@@ -278,7 +278,7 @@ def run_ml_pipeline():
 
     print(f"\n[RESULT] Best model: {best_name}")
 
-    # ── Step 8: Hyperparameter Tuning on Best Pipeline ──
+    # Step 8: Hyperparameter Tuning on Best Pipeline
     if best_name == "Logistic Regression":
         print("\n--- Hyperparameter Tuning (Logistic Regression) ---")
         tuned_model = run_hyperparameter_tuning(build_lr_pipeline(), train_df)
@@ -286,10 +286,10 @@ def run_ml_pipeline():
         evaluate_model(tuned_predictions, "Tuned Logistic Regression")
         best_model = tuned_model
 
-    # ── Step 9: Save Best Model ──
+    # Step 9: Save Best Model
     save_model(best_model, MODEL_SAVE_PATH)
 
-    # ── Summary ──
+    # Summary 
     elapsed = time.time() - start_time
     print("\n" + "=" * 60)
     print(f"  ML PIPELINE COMPLETE in {elapsed:.2f} seconds")
