@@ -1,0 +1,24 @@
+apiVersion: kubeflow.org/v1beta1
+kind: Experiment 
+metadata:
+  name: random-forest-tuning
+spec:
+  objective:
+    type: maximize
+    goal: 0.99
+    objectiveMetricName: accuracy
+  algorithm:
+    algorithmName: bayesianoptimization
+  parameters:
+    - name: n_estimators
+      parameterType: int
+      feasibleSpace:
+        min: "50"
+        max: "500"
+    - name: max_depth
+      parameterType: int
+      feasibleSpace:
+        min: "3"
+        max: "20"
+  maxTrialCount: 30
+  parallelTrialCount: 5

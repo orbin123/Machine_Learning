@@ -1,0 +1,30 @@
+# Initialize project
+dvc init 
+
+# Track a data file 
+dvc add data/training_data.csv
+
+# configure remote storage
+dvc remote add -d myremote s3://my-bucket/dvc-store
+
+# Push data to remote 
+dvc push 
+
+# Commit the metadata
+git add data/training_data.csv.dvc .gitignore
+git commit -m "ADD training data v1"
+
+# Data has be updated...
+dvc add data/training_data.csv 
+git add data/training_data.csv.dvc
+git commit -m "Update training data v2"
+dvc push 
+
+# Go back to older version
+git checkout v1.0 -- data/training_data.csv.dvc 
+dvc checkout
+
+
+
+# Running a dvc.yaml file pipeline
+dvc repro

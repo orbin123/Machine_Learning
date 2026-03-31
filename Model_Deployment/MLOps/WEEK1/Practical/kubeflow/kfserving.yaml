@@ -1,0 +1,12 @@
+apiVersion: serving.kserve.io/v1beta1
+kind: InferenceService
+metadata:
+  name: churn-predictor
+spec:
+  predictor:
+    sklearn:
+      storageUri: "gs://my-bucket/models/churn-model"
+      resources:
+        requests:
+          cpu: "1"
+          memory: "2Gi"
