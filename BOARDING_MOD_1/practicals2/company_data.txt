@@ -1,0 +1,37 @@
+TECHNOVA SOLUTIONS
+
+Company Overview:
+TechNova Solutions is a software company that provides web development, mobile applications, cloud services, and artificial intelligence solutions to businesses. The company was founded in 2019 and is headquartered in Bangalore, India.
+
+Products and Services:
+TechNova provides custom web application development, mobile app development, cloud migration, AI consulting, data analytics, and software maintenance services. The company also provides technical support and system monitoring for its enterprise customers.
+
+Refund Policy:
+Customers can request a refund within 14 days of purchasing a service if the requested work has not started. Once development or implementation work has started, refunds are evaluated on a case-by-case basis. Completed services are generally not eligible for a refund. Approved refunds are processed within 7 to 10 business days.
+
+Cancellation Policy:
+Customers can cancel a service before development work begins without any cancellation fee. If work has already started, the customer may be charged for the work completed up to the cancellation date.
+
+Customer Support:
+TechNova customer support is available Monday to Friday from 9:00 AM to 6:00 PM IST. Customers can contact support by email at support@technova.example or through the support section of the company website. Standard support requests are normally answered within 24 hours.
+
+Business Hours:
+The company's regular business hours are Monday to Friday, 9:00 AM to 6:00 PM IST. The company is closed on weekends and public holidays.
+
+Payment Methods:
+TechNova accepts credit cards, debit cards, UPI, bank transfers, and major online payment services. Enterprise customers may also request invoice-based payments.
+
+Data Privacy:
+TechNova collects customer information required to provide its services. Customer data is not sold to third parties. The company uses encryption and access controls to protect sensitive customer information.
+
+Delivery Timeline:
+Small software projects usually take between 2 and 4 weeks to complete. Medium projects generally take 1 to 3 months, while large enterprise projects may require 3 to 6 months depending on project requirements.
+
+Warranty and Maintenance:
+TechNova provides a 30-day bug-fix warranty after a project is delivered. Bugs caused by the original implementation are fixed without additional charges during this period. New features and major changes are treated as separate development work.
+
+Company Contact:
+TechNova Solutions
+Bangalore, Karnataka, India
+Email: hello@technova.example
+Phone: +91 80 4000 1234
